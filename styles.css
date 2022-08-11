@@ -86,7 +86,7 @@ body {
 /* SECTION TWO */
 
 .section-two {
-    background-color: red;
+    background-color: white;
     padding-left:300px;
     padding-right:300px;
     gap: 40px;
@@ -118,6 +118,8 @@ body {
     width: 130px;
     height: 130px;
     gap: 40px;
+    border-radius:10px;
+
 }
 
 
@@ -144,4 +146,47 @@ body {
     font-weight:bold;
 }
 
+/* SECTION FOUR */
 
+.section-four {
+    background-color: white;
+    align-items: center;
+    padding-right:300px;
+    padding-left: 300px;
+    height: 300px;
+    border:1px solid red;
+}
+
+.section-four .message {
+    background-color: #3882F6;
+    display:flex;
+    flex: 1 1 25%;
+    height:200px;
+    border-radius:10px;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+    justify-content: space-between;
+
+
+}
+
+.section-four .message p {
+    font-size:20px; 
+  padding-right:20px;
+}
+
+.section-four .message button {
+  width:500px;
+  height:100px;
+  align-items: center;
+  background-color: #3882F6;
+  border:2px solid white;
+  border-radius: 25px;
+  font-size:24px;
+}
+
+.section-four .message .right-side div {
+  font-size: 48px;
+}
