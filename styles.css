@@ -155,6 +155,7 @@ body {
     padding-left: 300px;
     height: 300px;
     border:1px solid red;
+    
 }
 
 .section-four .message {
@@ -173,7 +174,7 @@ body {
 }
 
 .section-four .message p {
-    font-size:20px; 
+  font-size:20px; 
   padding-right:20px;
 }
 
@@ -190,3 +191,19 @@ body {
 .section-four .message .right-side div {
   font-size: 48px;
 }
+
+/* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.footer .text {
+    color:white;
+}
+
