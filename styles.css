@@ -121,3 +121,26 @@ body {
 }
 
 
+/* SECTION THREE */
+
+.section-three {
+    background: gray;
+    padding-right:300px;
+    padding-left: 300px;
+    height:250px;
+}
+
+.section-three .quote {
+    font-size: 35px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.section-three .author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight:bold;
+}
+
